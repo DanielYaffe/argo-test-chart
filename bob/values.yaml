@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: ubuntu
+  repository: curlimages/curl
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "24.10"
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
